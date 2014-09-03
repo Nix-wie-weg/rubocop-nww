@@ -1,0 +1,26 @@
+AllCops:
+  RunRailsCops: true
+Style/Encoding:
+  EnforcedStyle: when_needed
+Style/AsciiComments:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/CollectionMethods:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Style/MethodDefParentheses:
+  Enabled: false
+Style/SignalException:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Lint/AssignmentInCondition:
+  Enabled: false
+Metrics/ParameterLists:
+  Enabled: false
+Style/MultilineBlockChain:
+  Enabled: false
+Style/CommentAnnotation:
+  Enabled: false
