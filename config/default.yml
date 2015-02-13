@@ -2,11 +2,10 @@ AllCops:
   RunRailsCops: true
 Style/Encoding:
   EnforcedStyle: when_needed
+  Enabled: true
 Style/AsciiComments:
   Enabled: false
 Style/Documentation:
-  Enabled: false
-Style/CollectionMethods:
   Enabled: false
 Metrics/MethodLength:
   Enabled: false
