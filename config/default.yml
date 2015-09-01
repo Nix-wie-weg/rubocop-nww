@@ -27,3 +27,5 @@ Style/CommentAnnotation:
   Enabled: false
 Style/ExtraSpacing:
   Enabled: true
+Style/GuardClause:
+  Enabled: false
