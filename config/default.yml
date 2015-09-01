@@ -11,6 +11,8 @@ Metrics/MethodLength:
   Enabled: false
 Style/MethodDefParentheses:
   Enabled: false
+Style/MultilineOperationIndentation:
+  Enabled: false
 Style/SignalException:
   Enabled: false
 Metrics/ClassLength:
