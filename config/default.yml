@@ -11,6 +11,8 @@ Metrics/MethodLength:
   Enabled: false
 Style/MethodDefParentheses:
   Enabled: false
+Style/MultilineOperationIndentation:
+  Enabled: false
 Style/SignalException:
   Enabled: false
 Metrics/ClassLength:
@@ -25,3 +27,5 @@ Style/CommentAnnotation:
   Enabled: false
 Style/ExtraSpacing:
   Enabled: true
+Style/GuardClause:
+  Enabled: false
