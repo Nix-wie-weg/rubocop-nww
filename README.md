@@ -10,3 +10,7 @@ Some code is borrowed from
 
     $ gem install rubocop-nww
     $ echo 'require: rubocop-nww' > ~/.rubocop.yml
+
+## Credits
+
+* [funglaub](https://github.com/funglaub) former colleague
