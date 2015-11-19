@@ -6,9 +6,8 @@ require 'rubocop/nww/version'
 Gem::Specification.new do |spec|
   spec.name = 'rubocop-nww'
   spec.version = Rubocop::Nww::VERSION
-  spec.authors = ['Florian Dütsch', 'Florian Unglaub']
-  spec.email = ['florian.duetsch@nix-wie-weg.de',
-                'florian.unglaub@nix-wie-weg.de']
+  spec.authors = ['Florian Dütsch']
+  spec.email = ['florian.duetsch@nix-wie-weg.de']
   spec.summary = 'RubyCop defaults for Nix-wie-weg'
   spec.homepage = 'https://github.com/Nix-wie-weg/rubocop-nww'
   spec.license = 'MIT'
