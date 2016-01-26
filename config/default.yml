@@ -12,7 +12,11 @@ Metrics/MethodLength:
 Style/MethodDefParentheses:
   Enabled: false
 Style/MultilineOperationIndentation:
-  Enabled: false
+  EnforcedStyle: aligned
+  Enabled: true
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+  Enabled: true
 Style/SignalException:
   Enabled: false
 Metrics/ClassLength:
