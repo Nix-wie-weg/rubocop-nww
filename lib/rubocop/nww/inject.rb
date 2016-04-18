@@ -1,8 +1,6 @@
 # Borrowed from
 # https://github.com/nevir/rubocop-rspec/blob/master/lib/rubocop/rspec/inject.rb
 
-require 'yaml'
-
 module RuboCop
   module Nww
     # Because RuboCop doesn't yet support plugins, we have to monkey patch in a
@@ -11,12 +9,12 @@ module RuboCop
       DEFAULT_FILE = File.expand_path(
         '../../../../config/default.yml', __FILE__
       )
-
       def self.defaults!
-        hash = YAML.load_file(DEFAULT_FILE)
+        path = File.absolute_path(DEFAULT_FILE)
+        hash = ConfigLoader.send(:load_yaml_configuration, path)
+        config = Config.new(hash, path)
         puts "configuration from #{DEFAULT_FILE}" if ConfigLoader.debug?
-        config = ConfigLoader.merge_with_default(hash, DEFAULT_FILE)
-
+        config = ConfigLoader.merge_with_default(config, path)
         ConfigLoader.instance_variable_set(:@default_configuration, config)
       end
     end
