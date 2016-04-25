@@ -15,6 +15,10 @@ Style/MultilineOperationIndentation:
   EnforcedStyle: aligned
 Style/MultilineMethodCallIndentation:
   EnforcedStyle: indented
+Style/MultilineMethodDefinitionBraceLayout:
+  Enabled: true
+Style/MultilineHashBraceLayout:
+  Enabled: true
 Style/SignalException:
   Enabled: false
 Metrics/ClassLength:
