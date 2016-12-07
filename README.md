@@ -1,3 +1,9 @@
+## Deprecated!
+
+See
+[nww_devtools](https://github.com/Nix-wie-weg/nww_devtools#what-about-the-meta-gems)
+for more information.
+
 # RuboCop-Nww
 
 This gem applies [our](http://www.nix-wie-weg.de/mitarbeiter.html#developers)
